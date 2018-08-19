@@ -9,7 +9,7 @@
 </head>
 <body>
 <%
-out.println(new InsultGenerator().generateInsult());
+out.println(new InsultGenerator().generateInsultFromDb());
 %>
 
 </body>
