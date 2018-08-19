@@ -5,7 +5,7 @@ import java.sql.*;
 public class ConnectionFactory {
 
     public static Connection getConnection() {
-        String jdbcProtocol = "jdbc://postgresql://";
+        String jdbcProtocol = "jdbc:postgresql://";
         String host = System.getenv("POSTGRESQL_SERVICE_HOST");
         String database = System.getenv("POSTGRESQL_DATABASE");
         String user = System.getenv("POSTGRESQL_USER");
